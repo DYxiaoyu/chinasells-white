@@ -1494,260 +1494,54 @@ html.motion .reveal-line.is-in { transform: scaleX(1); }
     gtag('config', 'G-XXXXXXXXXX', { 'linker': { 'domains': ['hyjjls.cn','www.hyjjls.cn','chinasells.ru','www.chinasells.ru','hyjj.shop'] } });
     */
   </script>
-
-
-
-<!--white-polish:start-->
-<style id="white-polish">
-/* 副本统一风格：浅灰蓝层次 + 少量深蓝重点卡，不加 section 过渡带 */
-:root{--soft-blue:#edf3f7;--soft-blue-2:#e3edf3;--soft-border:#d5e0e8;--soft-shadow:0 18px 46px rgba(8,35,60,.07)}
-.btn{border-radius:7px}.nav-links a.nav-cta{border-radius:7px}
-.hero-proof,.capability-grid,.cred-grid,.cat-grid,.stats-grid{border-radius:14px;overflow:hidden}
-.hero-person-card{border-radius:14px}.party-note{border-radius:10px}
-.case-mini,.case-card,.problem{border:1px solid var(--line);border-radius:13px;overflow:hidden}
-.case-mini{box-shadow:0 12px 32px rgba(8,35,60,.05)}
-.cat-more{border:0;border-radius:13px;box-shadow:0 16px 38px rgba(6,24,45,.13)}
-
-/* 关于页 / 案例页：原整块深色区改为浅灰蓝，文字和卡片同步换色 */
-.section-dark{color:var(--ink);background:radial-gradient(900px 420px at 90% 0%,rgba(20,80,143,.07),transparent 66%),var(--soft-blue)}
-.section-dark .section-title,.section-dark h2{color:var(--ink)}
-.section-dark .section-copy{color:var(--muted)}
-.section-dark .section-kicker{color:var(--gold)}
-.timeline{background:var(--line);border-color:var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--soft-shadow)}
-.timeline-step{background:#fff}.timeline-index{border-right-color:var(--line);color:var(--gold);background:#f8fafc}
-.timeline-text strong{color:var(--ink)}.timeline-text span{color:var(--muted)}
-.value-card{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 12px 30px rgba(8,35,60,.05)}
-.value-card h3{color:var(--blue)}.value-card p{color:var(--muted)}
-.role-grid{border-color:var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--soft-shadow)}
-.role-item{background:#fff;border-color:var(--line)}.role-item h4{color:var(--blue)}.role-item p{color:var(--muted)}
-.cta{color:var(--ink);border:1px solid var(--soft-border);border-radius:16px;background:linear-gradient(135deg,#e7eff5,#f7fafc);box-shadow:var(--soft-shadow)}
-.cta h2{color:var(--ink)}.cta p{color:var(--muted)}.cta .section-kicker{color:var(--gold)}
-.cta .btn-secondary{color:var(--ink);border-color:rgba(9,32,60,.22);background:#fff}
-
-/* 首页人物区：浅色衬底 + 人像圆底 + 四项职责小卡 */
-#manager.aliya-sec{padding:92px 0;color:var(--ink);background:radial-gradient(900px 460px at 8% 42%,rgba(20,80,143,.09),transparent 64%),linear-gradient(180deg,#f3f6f9,#eaf1f5)}
-#manager .aliya-photo{background:radial-gradient(circle at 50% 43%,#dce7ee 0 42%,rgba(220,231,238,0) 42.4%)}
-#manager .aliya-photo img{filter:drop-shadow(0 20px 38px rgba(9,32,60,.18))}
-#manager .aliya-ring{border-color:rgba(20,80,143,.14)}#manager .aliya-ring-2{border-color:rgba(215,168,79,.25)}
-#manager .aliya-list{gap:14px 16px}
-#manager .aliya-item{padding:17px 18px;border:1px solid rgba(213,224,232,.9);border-radius:11px;background:rgba(255,255,255,.74)}
-#manager .aliya-item h4{color:var(--ink)}#manager .aliya-item p{color:var(--muted)}
-#manager .aliya-tag{border:1px solid var(--soft-border);border-left:2px solid var(--gold);border-radius:6px;background:#fff;box-shadow:0 8px 20px rgba(8,35,60,.06);color:var(--ink)}
-#manager .aliya-chip{background:#fff;border-color:var(--soft-border)}
-
-/* 首页流程：仅含 supplier-panel 的首页用此背景，避免覆盖案例页浅色职责区 */
-#process:has(.supplier-panel){color:var(--ink);background:#f8fafc}
-#process .section-title{color:var(--ink)}#process .section-copy{color:var(--muted)}
-#process .supplier-panel{border:0;border-radius:14px;background:linear-gradient(145deg,#0a2c50,#071f3b);box-shadow:0 22px 46px rgba(6,24,45,.17)}
-#process .supplier-panel h3{color:var(--gold-2)}
-#process .supplier-row{border-top-color:rgba(255,255,255,.13)}
-#process .supplier-row strong{color:#fff}#process .supplier-row span{color:rgba(255,255,255,.7)}
-#process .process-list{border-color:var(--line);border-radius:14px;background:var(--line);overflow:hidden;box-shadow:var(--soft-shadow)}
-#process .process-step{background:#fff}#process .process-num{border-right-color:var(--line);color:var(--gold);background:#fbfcfd}
-#process .process-text{color:#405268}
-
-/* 首页联系大卡：浅蓝灰而非整块深蓝 */
-#contact{background:var(--paper)}
-#contact .contact-band{border:1px solid var(--soft-border);border-radius:16px;background:linear-gradient(135deg,#e8f0f6,#f8fafc);box-shadow:var(--soft-shadow)}
-#contact .contact-band .section-kicker{color:var(--gold)}
-#contact .contact-list{border-color:var(--line);border-radius:12px;background:var(--line);overflow:hidden}
-#contact .contact-item{background:#fff}#contact .contact-label{color:var(--gold)}#contact .contact-value{color:var(--ink)}
-#contact .btn-secondary{color:var(--ink);border-color:rgba(9,32,60,.22);background:#fff}
-#contact .btn-secondary:hover{color:var(--blue);border-color:var(--gold)}
-
-/* 品类页：目录块统一成轻卡，图片与子类胶囊更柔和 */
-.cat-block{padding:32px;margin-bottom:28px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 14px 36px rgba(8,35,60,.055);overflow:hidden}
-.cat-block:last-child{margin-bottom:0;border-bottom:1px solid var(--line)}
-.cat-thumb{border-radius:10px;overflow:hidden}.sub-pill{border-color:#d9e3ea;background:#f1f5f8}
-
-@media(max-width:900px){
- #manager.aliya-sec{padding:70px 0}
- #manager .aliya-item{padding:15px 16px}
-}
-@media(max-width:640px){
- #manager.aliya-sec{padding:56px 0}
- #manager .aliya-list{gap:12px}
- .cat-block{padding:20px;border-radius:13px}.cta,.cat-more{border-radius:12px}
-}
-</style>
-<!--white-polish:end-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--visual-v2:start-->
-<style id="visual-v2">
-/* =========================================================
-   V2 · 工业档案感：暖纸底色、海军蓝结构、铜金标记、照片化目录
-   不加入区块渐变换色，不使用发光 AI 渐变
-   ========================================================= */
+<!--warm-home-20261123:start-->
+<style id="warm-home-20261123">
 :root{
   --paper:#f2eee5;
   --white:#fffdf7;
   --ink:#0b1a26;
   --navy:#071a2b;
-  --navy-2:#0b2439;
   --line:#dcd4c5;
   --muted:#656d6b;
   --gold:#b98732;
   --gold-2:#e2b969;
-  --soft-border:#d6cebf;
-  --soft-blue:#ede8dd;
-  --shadow:0 16px 44px rgba(10,24,36,.065);
 }
 html,body{background:var(--paper);color:var(--ink)}
-body{counter-reset:sec}
-.section{background:transparent}
 .section-white{background:var(--white)}
-.section-title{letter-spacing:-.032em}
-.btn{border-radius:2px;text-transform:uppercase;letter-spacing:.055em;font-size:12px;font-weight:800;padding-left:22px;padding-right:22px}
-.nav-links a.nav-cta{border-radius:2px}
-.cta,.case-mini,.case-card,.problem,.cat-block,.value-card,.cred-card,.capability-grid,.cred-grid,.cat-grid,.stats-grid,.timeline,.role-grid,#process .process-list,#manager .aliya-item,#manager .aliya-tag,.cat-more{border-radius:2px}
-.cta,.cred-card,.case-mini,.capability-card,.cat-card,.cat-block{box-shadow:none}
+section.section:not(.section-white):not(.section-dark){background:var(--paper)}
+.hero::after{background:linear-gradient(180deg,rgba(242,238,229,0),var(--paper))}
+.v2-cats .cat-search,.cat-search{background:#f2eee5;border-color:#ded6c6}
+.cat-search .cs-box,.cs-box{border-color:#ded6c6}
 
-/* 章节编号：01 / 02 / 03 ... */
-.section-kicker{counter-increment:sec;display:inline-flex;align-items:center;gap:9px;letter-spacing:.13em;color:var(--gold)}
-.section-kicker::before{content:counter(sec,decimal-leading-zero);display:inline-flex;align-items:center;justify-content:center;min-width:25px;height:20px;padding:0 4px;
-  border:1px solid rgba(11,26,38,.22);background:var(--white);color:var(--ink);font-size:9px;line-height:1;letter-spacing:.06em;font-weight:800}
-.section-dark .section-kicker::before,#guarantee .section-kicker::before,#contact .section-kicker::before{background:transparent;border-color:rgba(226,185,105,.42);color:var(--gold-2)}
-
-/* 首屏下的订单一句话路线条 */
-.route-bar-wrap{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.route-bar{display:grid;grid-template-columns:180px minmax(0,1fr) 128px;align-items:center;gap:34px;min-height:88px}
-.route-caption{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);line-height:1.6}
-.route-caption b{display:block;margin-top:4px;color:var(--ink);font-size:12px;letter-spacing:.06em}
-.route-flow{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:start}
-.route-flow::before{content:"";position:absolute;left:5%;right:5%;top:9px;height:1px;background:var(--line)}
-.route-step{position:relative;padding-top:27px;text-align:center;font-size:11.5px;font-weight:700;color:var(--ink)}
-.route-step::before{content:"";position:absolute;top:4px;left:50%;width:9px;height:9px;margin-left:-4.5px;border:1px solid var(--gold);background:var(--white);border-radius:50%}
-.route-step:first-child::before{background:var(--gold)}
-.route-step small{display:block;margin-bottom:4px;color:var(--gold);font-size:9px;letter-spacing:.14em}
-.route-coord{text-align:right;font-size:9.5px;line-height:1.7;letter-spacing:.08em;color:var(--muted)}
-.route-coord b{display:block;color:var(--ink);font-size:11px;letter-spacing:.04em}
-
-/* 首屏右侧：工作现场照片框，主动去掉悬浮 AI 人像 */
-.hero-person-glow{display:none}
-.hero-person-photo{width:min(340px,100%);aspect-ratio:3/4;overflow:hidden;border:1px solid rgba(226,185,105,.42);
-  background:#0a1b2a;box-shadow:0 26px 56px rgba(0,0,0,.36)}
-.hero-person-photo img{width:100%;height:100%;object-fit:cover;object-position:center 54%;filter:none}
-.hero-person-photo::before{content:"НА СКЛАДЕ · НАНЬТУН";position:absolute;z-index:2;left:0;top:0;padding:7px 10px;
-  background:rgba(7,26,43,.9);border-right:1px solid rgba(226,185,105,.4);border-bottom:1px solid rgba(226,185,105,.4);
-  color:var(--gold-2);font-size:8.5px;letter-spacing:.14em;font-weight:800}
-.hero-person-photo::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
-
-/* 数据档案板：首页 2×2，关于页 3×2；统一深底照片背景 */
-.about-metrics{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;padding:62px 0 0;overflow:hidden;
-  border:1px solid #1b3348;background:linear-gradient(180deg,rgba(7,26,43,.48),rgba(7,26,43,.9)),url("img/ru-hero.webp") center/cover no-repeat;
-  box-shadow:0 24px 54px rgba(7,26,43,.18)}
-.about-metrics::before{content:"HUYING JUJIN  ·  NANTONG / JIANGSU";position:absolute;z-index:1;left:20px;right:20px;top:20px;
-  color:rgba(255,255,255,.54);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase}
-.about-metrics .about-metric{padding:24px 22px;background:rgba(7,26,43,.72);border:0}
-.about-metrics .about-metric strong{color:var(--gold-2);font-size:25px;letter-spacing:-.02em}
-.about-metrics .about-metric span{color:rgba(255,255,255,.67);font-size:11.5px}
-
-/* 关于页 3×2 指标板 */
-.metric-panel{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;padding:62px 0 0;overflow:hidden;
-  border:1px solid #1b3348;background:linear-gradient(180deg,rgba(7,26,43,.5),rgba(7,26,43,.92)),url("img/ru-hero.webp") center/cover no-repeat;
-  box-shadow:0 24px 54px rgba(7,26,43,.18)}
-.metric-panel::before{content:"HUYING JUJIN  ·  NANTONG / JIANGSU";position:absolute;z-index:1;left:20px;right:20px;top:20px;
-  color:rgba(255,255,255,.54);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase}
-.metric{padding:23px 20px;background:rgba(7,26,43,.72);border:0}
-.metric strong{color:var(--gold-2);font-size:24px;margin-bottom:9px}
-.metric span{color:rgba(255,255,255,.66);font-size:11.5px}
-
-/* 关于：深色数据档案板 */
-#about{background:var(--white);border-bottom:1px solid var(--line)}
-#about .about-home{gap:44px;align-items:center}
-#about .about-home-text .section-title{max-width:650px}
-#about .about-metrics{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:1px;padding:62px 0 0;overflow:hidden;
-  border:1px solid #1b3348;background:linear-gradient(180deg,rgba(7,26,43,.48),rgba(7,26,43,.9)),url("img/ru-hero.webp") center/cover no-repeat;box-shadow:0 24px 54px rgba(7,26,43,.18)}
-#about .about-metrics::before{content:"HUYING JUJIN  ·  NANTONG / JIANGSU";position:absolute;z-index:1;left:20px;right:20px;top:20px;
-  color:rgba(255,255,255,.54);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase}
-#about .about-metric{padding:24px 22px;background:rgba(7,26,43,.72);border:0}
-#about .about-metric strong{color:var(--gold-2);font-size:25px;letter-spacing:-.02em}
-#about .about-metric span{color:rgba(255,255,255,.67);font-size:11.5px}
-
-/* 能力：四张档案卡，第一张深色，右上角大号序号 */
-#capability{background:var(--white);border-bottom:1px solid var(--line)}
-#capability .capability-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;counter-reset:cap;border:0;background:none;box-shadow:none}
-#capability .capability-card{position:relative;min-height:292px;padding:30px 25px 28px;overflow:hidden;counter-increment:cap;
-  border:1px solid var(--line);border-top:2px solid var(--ink);background:var(--paper)}
-#capability .capability-card:first-child{background:var(--navy);border-color:var(--navy);border-top-color:var(--gold)}
-#capability .capability-card::after{content:counter(cap,decimal-leading-zero);position:absolute;right:18px;top:14px;color:rgba(11,26,38,.12);font-size:54px;line-height:1;font-weight:900;letter-spacing:-.06em}
-#capability .capability-card:first-child::after{color:rgba(255,255,255,.12)}
-#capability .capability-icon{width:42px;height:42px;margin-bottom:28px;padding:10px;border:1px solid rgba(185,135,50,.58);background:rgba(185,135,50,.07);color:var(--gold)}
-#capability .capability-card h3{font-size:18px;line-height:1.28;letter-spacing:-.02em}
-#capability .capability-card:first-child h3{color:#fff8eb}
-#capability .capability-card:first-child p{color:rgba(255,255,255,.66)}
-#capability .capability-card:first-child .capability-icon{color:var(--gold-2);border-color:rgba(226,185,105,.35)}
-#capability .capability-card:hover{transform:translateY(-3px);box-shadow:0 16px 38px rgba(10,24,36,.08)}
-
-/* 保证与文件：深色资料带 + 验货报告样本 */
-#guarantee{position:relative;overflow:hidden;background:var(--navy);color:#f7f0e2;padding-top:92px;padding-bottom:92px}
-#guarantee::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
-  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:44px 44px}
-#guarantee .container{position:relative;z-index:1}
-#guarantee .section-title{color:#fff8eb}
-#guarantee .section-copy{color:rgba(255,255,255,.66)}
-#guarantee .cred-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;counter-reset:cred;
-  border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.14)}
-#guarantee .cred-card{position:relative;counter-increment:cred;padding:30px 22px 32px;border:0;background:rgba(8,25,41,.76)}
-#guarantee .cred-card::before{content:counter(cred,decimal-leading-zero);display:block;margin-bottom:26px;color:var(--gold-2);font-size:10px;letter-spacing:.14em;font-weight:800}
-#guarantee .cred-card h3{color:#fff8eb;font-size:17px;line-height:1.42}
-#guarantee .cred-card p{color:rgba(255,255,255,.62);font-size:12.8px}
-#guarantee .party-note{margin-top:18px;color:rgba(255,255,255,.72);background:rgba(185,135,50,.09);border-left:2px solid var(--gold)}
-#guarantee .party-note strong{color:var(--gold-2)}
-
-.inspection-proof{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:58px;align-items:center;margin-top:58px;padding-top:52px;border-top:1px solid rgba(255,255,255,.13)}
-.report-visual{position:relative;justify-self:stretch;padding:12px;border:1px solid #b8ac96;background:#e9e1d3;box-shadow:0 30px 70px rgba(0,0,0,.35);transform:rotate(-1.1deg)}
-.report-visual img{display:block;width:100%;height:auto}
-.report-stamp{position:absolute;right:-17px;top:20px;padding:8px 11px;border:1px solid var(--gold-2);background:var(--navy);color:var(--gold-2);
-  font-size:9px;letter-spacing:.14em;font-weight:800;transform:rotate(3deg);box-shadow:0 8px 20px rgba(0,0,0,.24)}
-.proof-kicker{color:var(--gold-2);font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800}
-.inspection-proof h3{margin:12px 0 14px;max-width:500px;color:#fff8eb;font-size:33px;line-height:1.18;letter-spacing:-.035em}
-.inspection-proof p{max-width:560px;margin:0;color:rgba(255,255,255,.65);font-size:14px;line-height:1.85}
-.proof-facts{display:grid;grid-template-columns:1fr 1fr;gap:0 22px;margin:28px 0 24px;padding:0;list-style:none}
-.proof-facts li{padding:12px 0;border-top:1px solid rgba(255,255,255,.13);color:rgba(255,255,255,.72);font-size:12px;line-height:1.6}
-.proof-facts li b{display:block;color:#fff8eb;font-size:12.5px;margin-bottom:3px}
-.proof-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
-.proof-note{margin:14px 0 0;color:rgba(255,255,255,.44)!important;font-size:10.5px!important;line-height:1.6!important}
-
-/* 品类：照片化目录卡 */
 #offer{background:var(--paper);border-bottom:1px solid var(--line)}
 .cat-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;counter-reset:cat;border:0;background:none;box-shadow:none}
 .cat-card{position:relative;display:flex;flex-direction:column;padding:0;overflow:hidden;counter-increment:cat;
-  border:1px solid var(--line);background:var(--white);text-decoration:none;transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease}
+  border:1px solid var(--line);background:var(--white);text-decoration:none;
+  transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease;box-shadow:none}
 .cat-photo{position:relative;aspect-ratio:4/3;overflow:hidden;background:#d9d2c4}
 .cat-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
 .cat-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,26,43,.02),rgba(7,26,43,.3));pointer-events:none}
 .cat-card::before{content:counter(cat,decimal-leading-zero);position:absolute;z-index:2;left:12px;top:12px;display:grid;place-items:center;
-  min-width:30px;height:22px;padding:0 6px;background:rgba(7,26,43,.86);border:1px solid rgba(226,185,105,.55);color:var(--gold-2);font-size:9.5px;letter-spacing:.12em;font-weight:800}
+  min-width:30px;height:22px;padding:0 6px;background:rgba(7,26,43,.86);border:1px solid rgba(226,185,105,.55);
+  color:var(--gold-2);font-size:9.5px;letter-spacing:.12em;font-weight:800}
 .cat-ico{display:none}
 .cat-card h3{margin:0;padding:18px 17px 0;color:var(--ink);font-size:14px;line-height:1.36}
 .cat-card p{flex:1;margin:0;padding:7px 17px 0;color:var(--muted);font-size:11px;line-height:1.68}
 .cat-arrow{margin:0;padding:15px 17px 17px;color:var(--gold);font-size:14px}
-.cat-card:hover{transform:translateY(-4px);border-color:rgba(185,135,50,.62);box-shadow:0 18px 42px rgba(10,24,36,.11)}
+.cat-card:hover{transform:translateY(-4px);border-color:rgba(185,135,50,.62);box-shadow:0 18px 42px rgba(10,24,36,.11);background:var(--white)}
 .cat-card:hover .cat-photo img{transform:scale(1.045)}
 .cat-card:hover .cat-arrow{transform:translateX(4px)}
+.cat-omitted{margin-top:16px;padding:22px 26px;background:var(--white);border:1px dashed #c8bdab}
+.cat-omitted-plus{border-color:rgba(185,135,50,.55);background:rgba(185,135,50,.07);color:var(--gold)}
+.cat-omitted p{color:var(--ink)}
+.cat-omitted .cat-omitted-note{color:var(--muted)}
 
-/* 案例：编辑式拼版，首案横向占据两列 */
 #cases{background:var(--white);border-bottom:1px solid var(--line)}
 .cases-home-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;counter-reset:case}
-.case-mini{counter-increment:case;border:1px solid var(--line);background:var(--white)}
+.case-mini{position:relative;counter-increment:case;border:1px solid var(--line);background:var(--white);box-shadow:none}
 .case-mini::before{content:counter(case,decimal-leading-zero);position:absolute;z-index:3;left:12px;top:12px;display:grid;place-items:center;
-  min-width:30px;height:22px;padding:0 6px;background:rgba(7,26,43,.86);border:1px solid rgba(226,185,105,.5);color:var(--gold-2);font-size:9.5px;letter-spacing:.12em;font-weight:800}
+  min-width:30px;height:22px;padding:0 6px;background:rgba(7,26,43,.86);border:1px solid rgba(226,185,105,.5);
+  color:var(--gold-2);font-size:9.5px;letter-spacing:.12em;font-weight:800}
 .case-mini img{height:190px}
 .case-mini:first-child{grid-column:span 2;flex-direction:row;min-height:330}
 .case-mini:first-child img{width:58%;height:100%;min-height:330;flex:0 0 58%}
@@ -1757,161 +1551,42 @@ body{counter-reset:sec}
 .case-mini h3{font-size:15px;line-height:1.3;color:var(--ink)}
 .case-mini-tag{color:var(--gold);font-size:9.5px;letter-spacing:.08em;font-weight:800}
 .case-mini p{color:var(--muted);font-size:12px;line-height:1.7}
-.case-mini::after,.case-card .case-play,.case-mini .case-play{display:none!important}
+.case-mini::after{display:none!important}
+.case-mini:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(10,24,36,.1);border-color:rgba(185,135,50,.55)}
 
-/* 内页首屏：统一为中性海军蓝，不再偏冷蓝 */
-.page-hero{background:
-  linear-gradient(90deg,rgba(4,15,26,.97) 0%,rgba(6,21,35,.88) 42%,rgba(6,21,35,.28) 72%,rgba(6,21,35,.12) 100%),
-  linear-gradient(180deg,rgba(4,15,26,.2),rgba(4,15,26,.78)),
-  url("img/ru-hero.webp") right 50% / cover no-repeat}
-
-/* 案例页：统计条改为深色档案带，流程区回到暖纸色 */
-.v2-cases .stats{padding:0;background:var(--navy)}
-.v2-cases .stats .container{width:100%;max-width:none}
-.v2-cases .stats-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;border:0;background:rgba(255,255,255,.15);
-  box-shadow:none;border-radius:0;overflow:visible}
-.v2-cases .stat-cell{padding:34px 36px;border:0;background:rgba(8,25,41,.84)}
-.v2-cases .stat-cell b{color:var(--gold-2)}
-.v2-cases .stat-cell small{color:rgba(255,255,255,.62)}
-.v2-cases #process{background:var(--paper);color:var(--ink);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.v2-cases #process .section-title{color:var(--ink)}
-.v2-cases #process .section-copy{color:var(--muted)}
-.v2-cases #process .role-grid{background:var(--line);border-color:var(--line)}
-.v2-cases #process .role-item{background:var(--white);border-color:var(--line)}
-.v2-cases #process .role-item h4{color:var(--gold)}
-.v2-cases #process .role-item p{color:var(--muted)}
-.v2-cats .cat-hero::after{content:"16 / 172";position:absolute;right:38px;bottom:30px;color:rgba(255,255,255,.075);
-  font-size:88px;line-height:1;font-weight:900;letter-spacing:-.06em;pointer-events:none}
-.v2-cats .cat-search{background:#f2eee5;border-bottom:1px solid #ded6c6}
-.v2-cats .cs-box{border-color:#ded6c6}
-.v2-cats .cs-box:focus-within{border-color:#b8893f}
-
-/* 人物：档案式职责行，不再一排圆角小卡 */
-#manager.aliya-sec{background:radial-gradient(720px 460px at 12% 48%,rgba(185,135,50,.09),transparent 68%),var(--paper);border-bottom:1px solid var(--line);padding:96px 0}
-#manager .aliya-name{letter-spacing:-.04em}
-#manager .aliya-role{display:inline-block;padding:6px 0 6px 12px;border-left:2px solid var(--gold);color:var(--blue)}
-#manager .aliya-photo{position:relative;aspect-ratio:3/4;overflow:hidden;border:1px solid rgba(185,135,50,.44);background:#0a1b2a;box-shadow:0 28px 58px rgba(10,24,36,.16)}
-#manager .aliya-photo img{position:relative;z-index:2;width:100%;height:100%;object-fit:cover;object-position:center 52%;filter:none}
-#manager .aliya-photo::after{content:"ПРОВЕРКА ПАРТИИ · НАНЬТУН";position:absolute;z-index:4;left:0;bottom:0;padding:8px 11px;
-  background:rgba(7,26,43,.9);border-top:1px solid rgba(226,185,105,.35);border-right:1px solid rgba(226,185,105,.35);
-  color:var(--gold-2);font-size:8.5px;letter-spacing:.14em;font-weight:800}
-#manager .aliya-ring,#manager .aliya-ring-2{display:none}
-#manager .aliya-list{gap:0 34px}
-#manager .aliya-item{padding:17px 0 17px 18px;border:0;border-left:2px solid rgba(185,135,50,.44);border-bottom:1px solid var(--line);background:transparent}
-#manager .aliya-item:first-child{border-top:1px solid var(--line)}
-#manager .aliya-item:nth-child(2){border-top:1px solid var(--line)}
-#manager .aliya-tag{background:var(--white);border:1px solid var(--line);border-left:2px solid var(--gold);box-shadow:none}
-#manager .aliya-chip{background:var(--white);border-color:var(--line)}
-
-/* 流程：浅底上保留一张深色重点卡（仅首页，避免覆盖内页同名区块） */
-.v2-home #process{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.v2-home #process .supplier-panel{border-radius:2px;box-shadow:0 24px 58px rgba(7,26,43,.18)}
-.v2-home #process .process-list{box-shadow:none;border-color:var(--line)}
-.v2-home #process .process-step{border-bottom:1px solid var(--line)}
-.v2-home #process .process-num{color:var(--gold)}
-
-/* 联系：深色收尾，视觉上与首屏呼应 */
-#contact{background:var(--paper);padding-top:92px;padding-bottom:92px}
-#contact .contact-band{border:1px solid #193850;border-radius:2px;align-items:center;background:linear-gradient(135deg,#0b263d,#061726);box-shadow:0 28px 70px rgba(7,26,43,.2)}
-#contact .contact-band h2{color:#fff8eb}
-#contact .contact-band p{color:rgba(255,255,255,.64)}
-#contact .contact-list{border-color:rgba(255,255,255,.19);background:rgba(255,255,255,.17);border-radius:2px}
-#contact .contact-item{background:var(--white)}
-#contact .contact-label{color:var(--gold)}
-#contact .contact-value a{color:var(--ink)}
-#contact .btn-secondary{color:#fff8eb;border-color:rgba(255,255,255,.3);background:transparent}
-#contact .btn-secondary:hover{color:var(--gold-2);border-color:var(--gold-2)}
-
-/* 内页：深色模块回归深色，CTA 统一收尾 */
-.section-dark{color:#f7f0e2;background:var(--navy)}
-.section-dark .section-title,.section-dark h2{color:#fff8eb}
-.section-dark .section-copy{color:rgba(255,255,255,.65)}
-.timeline{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.14);box-shadow:none}
-.timeline-step{background:rgba(8,25,41,.82)}
-.timeline-index{border-right-color:rgba(255,255,255,.14);background:rgba(255,255,255,.03);color:var(--gold-2)}
-.timeline-text strong{color:#fff8eb}.timeline-text span{color:rgba(255,255,255,.64)}
-.value-card{background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.14)}
-.value-card h3{color:var(--gold-2)}.value-card p{color:rgba(255,255,255,.66)}
-.role-grid{border-color:rgba(255,255,255,.14);box-shadow:none}
-.role-item{background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.14)}
-.role-item h4{color:var(--gold-2)}.role-item p{color:rgba(255,255,255,.64)}
-.cta{color:#fff8eb;border:1px solid #193850;background:var(--navy);box-shadow:0 22px 54px rgba(7,26,43,.18)}
-.cta h2{color:#fff8eb}.cta p{color:rgba(255,255,255,.65)}.cta .section-kicker{color:var(--gold-2)}
-.cta .btn-secondary{color:#fff8eb;border-color:rgba(255,255,255,.3);background:transparent}
-.cat-block{border-color:var(--line);background:var(--white);box-shadow:none}
-.cat-tail{background:var(--paper)}
-.about-page,.cases-page,.cat-body-wrap{background:var(--paper)}
-.about-page .section-white,.cases-page .section-white{background:var(--white)}
-
-@media(max-width:1180px){
-  .route-bar{grid-template-columns:160px minmax(0,1fr);gap:26px}
-  .route-coord{display:none}
-}
 @media(max-width:1080px){
+  .cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .cases-home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .case-mini:first-child{grid-column:span 2}
-  .cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-  #guarantee .cred-grid{grid-template-columns:1fr 1fr}
-  .inspection-proof{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px}
+  .case-mini:last-child{grid-column:auto}
 }
-@media(max-width:900px){
-  #capability .capability-grid{grid-template-columns:1fr 1fr}
-  #about .about-metrics{padding-top:58px}
-  .metric-panel{grid-template-columns:1fr 1fr;padding-top:58px}
-  .v2-cats .cat-hero::after{display:none}
-  .route-bar{min-height:82px}
-  .hero-person-photo{display:none}
-  .hero-person-photo::before{display:none}
-  .hero-person-card{padding:18px 18px;min-height:0}
-}
-@media(max-width:640px){
-  .route-bar{grid-template-columns:1fr;gap:18px;padding:22px 0}
-  .route-flow{grid-template-columns:repeat(2,1fr);gap:8px 18px}
-  .route-flow::before{display:none}
-  .route-step{padding-top:20px;padding-left:20px;text-align:left}
-  .route-step::before{left:6px;margin:0}
-  .route-step small{margin-bottom:3px}
-  .hero-person-photo::before{display:none}
-  .hero-person-photo{display:none;position:absolute;width:104px;right:8px;bottom:10px;margin:0;z-index:4;aspect-ratio:5/6;border-color:rgba(226,185,105,.32)}
-  .hero-person-card{padding:16px 16px;min-height:0}
-  #capability .capability-grid{grid-template-columns:1fr}
-  #capability .capability-card{min-height:0}
-  #guarantee{padding-top:66px;padding-bottom:66px}
-  #guarantee .cred-grid{grid-template-columns:1fr}
-  .inspection-proof{grid-template-columns:1fr;gap:34px;margin-top:42px;padding-top:38px}
-  .inspection-proof h3{font-size:27px}
-  .report-visual{transform:none}
-  .report-stamp{right:4px;top:10px;transform:rotate(2deg)}
-  .proof-facts{grid-template-columns:1fr}
-  .proof-facts li{padding:10px 0}
+@media(max-width:720px){
   .cat-grid{grid-template-columns:1fr 1fr;gap:10px}
-  .cases-home-grid{grid-template-columns:1fr}
   .cat-card h3{font-size:13px;padding:14px 13px 0}
   .cat-card p{padding:6px 13px 0;font-size:10.5px}
-  .cat-arrow{padding:12px 13px 14px}
+  .cat-card::before{left:9px;top:9px;min-width:27px;height:20px}
+  .cases-home-grid{grid-template-columns:1fr}
   .case-mini:first-child{grid-column:auto;flex-direction:column;min-height:0}
   .case-mini:first-child img{width:100%;height:190px;min-height:0;flex:none}
   .case-mini:first-child .case-mini-body{width:100%;padding:20px 16px 22px}
   .case-mini:first-child h3{font-size:18px}
-  #manager .aliya-list{gap:0}
-  #manager .aliya-item{padding:15px 0 15px 14px}
-  #contact{padding-top:64px;padding-bottom:64px}
-  #contact .hero-actions{display:grid;grid-template-columns:1fr;gap:9px}
-  #contact .hero-actions .btn{width:100%}
 }
 </style>
-<!--visual-v2:end-->
-
+<!--warm-home-20261123:end-->
+<!--brand-contact-20261123:start-->
+<style id="brand-contact-20261123">
+.brand-mark{object-fit:contain;filter:drop-shadow(0 1px 3px rgba(0,0,0,.22))}
+.hero-person-card .hp-label{color:rgba(255,255,255,.56);font-size:8px;line-height:1;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.hero-person-card .hp-label::after{content:":";margin-right:4px}
+.hero-person-card .hp-foot a:hover .hp-label{color:rgba(255,255,255,.78)}
+</style>
+<!--brand-contact-20261123:end-->
 </head>
-<body class="v2-home">
+<body>
   <header class="site-header">
     <nav class="nav" aria-label="Основная навигация">
       <a class="brand" href="index.html">
-        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-          <path d="M24 7 L40 16 L40 32 L24 41 L8 32 L8 16 Z" stroke="#d7a84f" stroke-width="2.2" stroke-linejoin="round"/>
-          <path d="M24 7 L40 16 L24 25 L8 16 Z" fill="#d7a84f"/>
-          <path d="M24 25 L24 41 M8 16 L24 25 L40 16" stroke="#f2c76d" stroke-width="2.2" stroke-linejoin="round"/>
-        </svg>
+        <img class="brand-mark" src="img/logo-hyjj.png" srcset="img/logo-hyjj.png 1x, img/logo-hyjj@2x.png 2x" alt="China Sells" width="160" height="160" decoding="async" fetchpriority="high">
         <span>
           <strong>CHINA <em>SELLS</em></strong>
           <small>Найдём · Проверим · Доставим</small>
@@ -1968,8 +1643,9 @@ body{counter-reset:sec}
         <aside class="hero-person" aria-label="Заместитель генерального директора">
           <div class="hero-person-glow" aria-hidden="true"></div>
           <div class="hero-person-photo">
-              <img src="img/work/warehouse.webp" alt="Работа на складе в Наньтуне" width="1881" height="1254" decoding="async">
-            </div>
+            <img src="img/aliya-hero.webp" srcset="img/aliya-hero.webp 1x, img/aliya-hero@2x.webp 2x"
+                 alt="Алия — заместитель генерального директора China Sells" width="380" height="548" decoding="async">
+          </div>
           <div class="hero-person-card">
             <img class="hp-avatar" src="img/aliya-avatar.webp" srcset="img/aliya-avatar.webp 1x, img/aliya-avatar@2x.webp 2x"
                  alt="Алия" width="84" height="84" loading="lazy" decoding="async">
@@ -1977,36 +1653,19 @@ body{counter-reset:sec}
             <strong class="hp-name">Алия</strong>
             <span class="hp-role">Заместитель генерального директора</span>
             <div class="hp-foot">
-              <a href="mailto:aliya@chinasells.ru">aliya@chinasells.ru</a>
-              <a href="https://wa.me/8619895947232" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-              <a href="https://t.me/aliyachinabiz" target="_blank" rel="noopener noreferrer">Telegram</a>
-              <a href="https://www.youtube.com/@aliya.chinabiz" target="_blank" rel="noopener noreferrer">YouTube</a>
-              <a href="https://www.tiktok.com/@aliya.chinabiz" target="_blank" rel="noopener noreferrer">TikTok</a>
-              <a href="https://vk.com/aliya.chinabiz" target="_blank" rel="noopener noreferrer">VK</a>
-              <a href="https://www.instagram.com/aliya.chinabiz" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="mailto:aliya@chinasells.ru"><span class="hp-label">Почта</span>aliya@chinasells.ru</a>
+              <a href="https://wa.me/8619895947232" target="_blank" rel="noopener noreferrer"><span class="hp-label">Мессенджер</span>WhatsApp</a>
+              <a href="https://t.me/aliyachinabiz" target="_blank" rel="noopener noreferrer"><span class="hp-label">Мессенджер</span>Telegram</a>
+              <a href="https://www.youtube.com/@aliya.chinabiz" target="_blank" rel="noopener noreferrer"><span class="hp-label">Соцсети</span>YouTube</a>
+              <a href="https://www.tiktok.com/@aliya.chinabiz" target="_blank" rel="noopener noreferrer"><span class="hp-label">Соцсети</span>TikTok</a>
+              <a href="https://vk.com/aliya.chinabiz" target="_blank" rel="noopener noreferrer"><span class="hp-label">Соцсети</span>VK</a>
+              <a href="https://www.instagram.com/aliya.chinabiz" target="_blank" rel="noopener noreferrer"><span class="hp-label">Соцсети</span>Instagram</a>
             </div>
           </div>
         </aside>
         </div>
       </div>
     </section>
-
-    <!--visual-v2-route:start-->
-    <div class="route-bar-wrap" aria-label="Маршрут заказа China Sells">
-      <div class="container">
-        <div class="route-bar">
-          <div class="route-caption">Маршрут одного заказа<b>Наньтун → Россия</b></div>
-          <div class="route-flow">
-            <div class="route-step"><small>01</small>Запрос и образцы</div>
-            <div class="route-step"><small>02</small>Фабрика и производство</div>
-            <div class="route-step"><small>03</small>Инспекция и документы</div>
-            <div class="route-step"><small>04</small>Склад и доставка</div>
-          </div>
-          <div class="route-coord"><b>NANTONG</b>31.98°N / 120.89°E</div>
-        </div>
-      </div>
-    </div>
-    <!--visual-v2-route:end-->
 
     <section class="section" id="about">
       <div class="container">
@@ -2116,44 +1775,6 @@ body{counter-reset:sec}
         <div class="party-note">
           <strong>Работаем через российское юрлицо</strong>: принимаем оплату в рублях, размещаем товар на локальном складе и доставляем по России. Реквизиты стороны договора и полный пакет документов передаём до подписания.
         </div>
-        <!--visual-v2-proof:start-->
-        <div class="inspection-proof">
-          <div class="report-visual">
-            <img src="docs/inspection-report-preview.webp" alt="Образец отчёта об инспекции партии" width="760" height="511" loading="lazy" decoding="async">
-            <span class="report-stamp">ДЕМО-ОБРАЗЕЦ</span>
-          </div>
-          <div class="proof-copy">
-            <div class="proof-kicker">Отчёт о проверке партии</div>
-            <h3>Что вы видите до оплаты партии</h3>
-            <p>Перед отправкой фиксируем фото и видео с фабрики, замеры, дефекты, комплектацию и упаковку. Итог — понятный PDF-отчёт, по которому можно принимать решение, а не только слова переписки.</p>
-            <ul class="proof-facts">
-              <li><b>Фото и видео</b>С производства и готовой партии</li>
-              <li><b>Замеры и дефекты</b>По согласованным критериям приёмки</li>
-              <li><b>Упаковка и маркировка</b>Проверка перед консолидацией</li>
-              <li><b>PDF-отчёт</b>Единый документ по партии</li>
-            </ul>
-            <div class="proof-actions">
-              <a class="btn btn-primary" href="docs/inspection-report-sample.pdf" target="_blank" rel="noreferrer">Посмотреть образец отчёта</a>
-            </div>
-            <p class="proof-note">Демонстрационный образец структуры отчёта. Не является записью реальной поставки.</p>
-          </div>
-        </div>
-        <!--visual-v2-proof:end-->
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
       </div>
     </section>
 
@@ -2169,7 +1790,7 @@ body{counter-reset:sec}
 
         <div class="cat-grid">
           <a class="cat-card" href="categories.html#clothing">
-                                                                                                <div class="cat-photo"><img src="img/cat-clothing.webp" alt="clothing — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-clothing.webp" alt="Одежда и обувь" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
             </div>
@@ -2179,7 +1800,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#textile">
-                                                                                                <div class="cat-photo"><img src="img/cat-textile.webp" alt="textile — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-textile.webp" alt="Домашний текстиль и ткани" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M9 4v16"/></svg>
             </div>
@@ -2189,7 +1810,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#home">
-                                                                                                <div class="cat-photo"><img src="img/cat-home.webp" alt="home — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-home.webp" alt="Товары для дома" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h12v9a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2"/></svg>
             </div>
@@ -2199,7 +1820,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#electronics">
-                                                                                                <div class="cat-photo"><img src="img/cat-electronics.webp" alt="electronics — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-electronics.webp" alt="Электроника и бытовая техника" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
             </div>
@@ -2209,7 +1830,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#furniture">
-                                                                                                <div class="cat-photo"><img src="img/cat-furniture.webp" alt="furniture — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-furniture.webp" alt="Мебель и фурнитура" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 10V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3"/><path d="M3 15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-4 0v1H7v-1a2 2 0 0 0-4 0z"/><path d="M6 17v3M18 17v3"/></svg>
             </div>
@@ -2219,7 +1840,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#sport">
-                                                                                                <div class="cat-photo"><img src="img/cat-sport.webp" alt="sport — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-sport.webp" alt="Спорт и фитнес" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 7v10M17.5 7v10M3 10v4M21 10v4M6.5 12h11"/></svg>
             </div>
@@ -2229,7 +1850,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#tools">
-                                                                                                <div class="cat-photo"><img src="img/cat-tools.webp" alt="tools — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-tools.webp" alt="Инструмент и оборудование" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4a5 5 0 0 1 5 5l-3 1-1-1-9 9-3-3 9-9-1-1z"/><path d="m5 15 4 4"/></svg>
             </div>
@@ -2239,7 +1860,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#medical">
-                                                                                                <div class="cat-photo"><img src="img/cat-medical.webp" alt="medical — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-medical.webp" alt="Медицина и уход" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
             </div>
@@ -2249,7 +1870,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#packaging">
-                                                                                                <div class="cat-photo"><img src="img/cat-packaging.webp" alt="packaging — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-packaging.webp" alt="Упаковка и расходники" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><path d="m3.3 7 7.7 4.73a2 2 0 0 0 2 0L20.7 7"/></svg>
             </div>
@@ -2259,7 +1880,7 @@ body{counter-reset:sec}
           </a>
 
           <a class="cat-card" href="categories.html#auto">
-                                                                                                <div class="cat-photo"><img src="img/cat-auto.webp" alt="auto — категория поставок China Sells" width="380" height="285" loading="lazy" decoding="async"></div>
+            <div class="cat-photo"><img src="img/cat-auto.webp" alt="Авто и мото" width="380" height="285" loading="lazy" decoding="async"></div>
             <div class="cat-ico">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l1.6-5h12.8L21 15"/><rect x="3" y="15" width="18" height="4" rx="1.5"/><path d="M7 19v2M17 19v2"/><path d="M8 15h8"/></svg>
             </div>
@@ -2358,7 +1979,8 @@ body{counter-reset:sec}
           <div class="aliya-photo">
             <div class="aliya-ring aliya-ring-2" aria-hidden="true"></div>
             <div class="aliya-ring" aria-hidden="true"></div>
-            <img src="img/work/textile-inspection.webp" alt="Проверка домашнего текстиля на фабрике в Наньтуне" width="1881" height="1254" loading="lazy" decoding="async">
+            <img src="img/aliya.webp" srcset="img/aliya.webp 1x, img/aliya@2x.webp 2x"
+                 alt="Алия — личный менеджер по закупкам в Китае" width="620" height="895" loading="lazy" decoding="async">
             <span class="aliya-tag">Ваш человек в цепочке</span>
           </div>
 
